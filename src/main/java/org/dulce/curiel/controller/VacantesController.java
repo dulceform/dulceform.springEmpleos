@@ -26,6 +26,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.ComponentScan;
 
 @Controller
 @RequestMapping(value="/vacantes")
