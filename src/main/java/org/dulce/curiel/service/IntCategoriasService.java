@@ -4,7 +4,9 @@ import java.util.List;
 import org.dulce.curiel.model.Categoria;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Component;
 
+@Component
 public interface IntCategoriasService {
 	//metodos abstractos
 	public List<Categoria> obtenerTodas();
