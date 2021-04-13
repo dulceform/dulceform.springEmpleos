@@ -18,6 +18,8 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
 @RequestMapping(value="/categorias")
+@Component
+@ComponentScan("org.dulce.curiel")
 public class CategoriasController {
 	
 	@Autowired
