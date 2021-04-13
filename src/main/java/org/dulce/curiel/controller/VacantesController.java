@@ -29,6 +29,8 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
 @RequestMapping(value="/vacantes")
+@Component
+@ComponentScan("org.dulce.curiel")
 public class VacantesController {
 	
 	@Autowired
